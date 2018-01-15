@@ -1,0 +1,35 @@
+.media-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.media-group {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.button-back {
+    background-color: rgba(114, 255, 113, 0.5);
+    color : grey;
+    width : 100px;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: 1px 2px 2px rgba(114, 113, 113, 0.5);
+}
+
+.button-action {
+    background-color: rgba(200, 25, 50, 0.5);
+    color : white;
+    width : 100px;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: 1px 2px 2px rgba(114, 113, 113, 0.5);
+}
+
+.group-button {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
