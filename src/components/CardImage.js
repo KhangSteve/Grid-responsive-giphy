@@ -162,6 +162,9 @@ class CardImage extends Component {
                     <MediaQuery minDeviceWidth={1824}>
                         <GridItems groupItems={groupItems} responsiveType={'DESKTOP'} onClickItem={this.onClickItem} />
                     </MediaQuery>
+                     <MediaQuery query="(min-resolution: 2dppx)">
+                        <GridItems groupItems={groupItems} responsiveType={'DESKTOP'} onClickItem={this.onClickItem} />
+                    </MediaQuery>
                 </MediaQuery>
 
                 <MediaQuery minDeviceWidth={700} maxDeviceWidth={1024} maxDeviceHeight={1366}>
